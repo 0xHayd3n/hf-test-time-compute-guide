@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "scope": "Bibliographic metadata only; the article is the sole evidential scope of this guide. Abstract-page inspection verifies identities and credits, not research claims, experimental results, or reproducibility.",
+  "accessed_date": "2026-10-20",
+  "sources": [
+    {
+      "id": "article",
+      "title": "What is test-time compute and how to scale it?",
+      "url": "https://huggingface.co/blog/Kseniase/testtimecompute",
+      "authors": ["Alyona Vert"],
+      "editors": ["Ksenia Se"],
+      "published_date": "2025-02-06",
+      "role": "sole_evidential_source",
+      "metadata_verified": true,
+      "notes": "Hugging Face Community Article, a blog overview rather than an original research paper. The footer explicitly identifies Alyona Vert as author and Ksenia Se as editor; the header displays both profiles. Complete prose and reference list inspected. Research papers below receive credit without being treated as full-text-verified evidence."
+    },
+    {
+      "id": "o1-system-card",
+      "title": "OpenAI o1 System Card",
+      "url": "https://arxiv.org/abs/2412.16720v1",
+      "authors": ["OpenAI"],
+      "full_author_list_url": "https://arxiv.org/abs/2412.16720v1",
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Corporate credit is used here; the linked authoritative metadata includes the extensive named author list. This array is not a transcription of every contributor. Bibliographic abstract-page inspection only. The selected v1 predates the article; no claim that the article used this exact version."
+    },
+    {
+      "id": "deepseek-r1",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2501.12948v1",
+      "authors": ["DeepSeek-AI"],
+      "full_author_list_url": "https://arxiv.org/abs/2501.12948v1",
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Corporate credit is used here; the linked authoritative metadata includes the extensive named author list. This array is not a transcription of every contributor. Bibliographic abstract-page inspection only. The selected v1 predates the article; later versions must not silently replace the article-era context."
+    },
+    {
+      "id": "virgo",
+      "title": "Virgo: A Preliminary Exploration on Reproducing o1-like MLLM",
+      "url": "https://arxiv.org/abs/2501.01904v2",
+      "authors": ["Yifan Du", "Zikang Liu", "Yifan Li", "Wayne Xin Zhao", "Yuqi Huo", "Bingning Wang", "Weipeng Chen", "Zheng Liu", "Zhongyuan Wang", "Ji-Rong Wen"],
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Full named author list transcribed from the authoritative abstract page. Bibliographic inspection only. Version 2 is dated February 5, 2025; selection does not establish which version the article consulted."
+    },
+    {
+      "id": "mulberry",
+      "title": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
+      "url": "https://arxiv.org/abs/2412.18319v2",
+      "authors": ["Huanjin Yao", "Jiaxing Huang", "Wenhao Wu", "Jingyi Zhang", "Yibo Wang", "Shunyu Liu", "Yingjie Wang", "Yuxin Song", "Haocheng Feng", "Li Shen", "Dacheng Tao"],
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Full named author list transcribed from the authoritative abstract page. Bibliographic inspection only. The selected v2 predates the article; no claim that the article used this exact version."
+    },
+    {
+      "id": "parm",
+      "title": "Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step",
+      "url": "https://arxiv.org/abs/2501.13926v1",
+      "authors": ["Ziyu Guo", "Renrui Zhang", "Chengzhuo Tong", "Zhizheng Zhao", "Peng Gao", "Hongsheng Li", "Pheng-Ann Heng"],
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Full named author list for v1 transcribed from the authoritative abstract page. Bibliographic inspection only. The later July 2025 v2 has an expanded author list and postdates the article; this record deliberately preserves v1 credits."
+    },
+    {
+      "id": "search-o1",
+      "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2501.05366v1",
+      "authors": ["Xiaoxi Li", "Guanting Dong", "Jiajie Jin", "Yuyao Zhang", "Yujia Zhou", "Yutao Zhu", "Peitian Zhang", "Zhicheng Dou"],
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Full named author list transcribed from the authoritative abstract page. The article discusses this framework but does not provide a matching paper hyperlink in its bonus list. Its bibliographic identity was resolved separately by exact title. No full-text research verification."
+    },
+    {
+      "id": "sana-1-5",
+      "title": "SANA 1.5: Efficient Scaling of Training-Time and Inference-Time Compute in Linear Diffusion Transformer",
+      "url": "https://arxiv.org/abs/2501.18427v1",
+      "authors": ["Enze Xie", "Junsong Chen", "Yuyang Zhao", "Jincheng Yu", "Ligeng Zhu", "Yujun Lin", "Zhekai Zhang", "Muyang Li", "Junyu Chen", "Han Cai", "Bingchen Liu", "Daquan Zhou", "Song Han"],
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Full named author list transcribed from the authoritative abstract page. Bibliographic inspection only. The selected v1 predates the article; selection does not establish which version the article consulted."
+    },
+    {
+      "id": "s1",
+      "title": "s1: Simple test-time scaling",
+      "url": "https://arxiv.org/abs/2501.19393v1",
+      "authors": ["Niklas Muennighoff", "Zitong Yang", "Weijia Shi", "Xiang Lisa Li", "Li Fei-Fei", "Hannaneh Hajishirzi", "Luke Zettlemoyer", "Percy Liang", "Emmanuel Candès", "Tatsunori Hashimoto"],
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Full named author list transcribed from the authoritative abstract page. Bibliographic inspection only. The selected v1 predates the article; selection does not establish which version the article consulted."
+    },
+    {
+      "id": "o1-coder",
+      "title": "o1-Coder: an o1 Replication for Coding",
+      "url": "https://arxiv.org/abs/2412.00154v1",
+      "authors": ["Yuxiang Zhang", "Shangxi Wu", "Yuqi Yang", "Jiangming Shu", "Jinlin Xiao", "Chao Kong", "Jitao Sang"],
+      "role": "underlying_research",
+      "metadata_verified": true,
+      "notes": "Full named author list transcribed from the Authors field on the authoritative abstract page. Bibliographic inspection only. The selected v1 predates the article; selection does not establish which version the article consulted."
+    },
+    {
+      "id": "underthinking",
+      "title": "Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs",
+      "url": "https://huggingface.co/papers/2501.18585",
+      "authors": [],
+      "full_author_list_url": "https://huggingface.co/papers/2501.18585",
+      "role": "article_further_reading",
+      "metadata_verified": false,
+      "notes": "Title and paper-page link retained from the article's bonus resources. An empty author array means not transcribed or verified here, not that the paper has no authors. Follow the linked paper page for author credits and its primary publication link; no full-text research verification."
+    },
+    {
+      "id": "system-1-system-2",
+      "title": "Test-time Computing: from System-1 Thinking to System-2 Thinking",
+      "url": "https://huggingface.co/papers/2501.02497",
+      "authors": [],
+      "full_author_list_url": "https://huggingface.co/papers/2501.02497",
+      "role": "article_further_reading",
+      "metadata_verified": false,
+      "notes": "Title and paper-page link retained from the article's bonus resources. An empty author array means not transcribed or verified here, not that the paper has no authors. Follow the linked paper page for author credits and its primary publication link; no full-text research verification."
+    },
+    {
+      "id": "o1-journey-1",
+      "title": "O1 Replication Journey: A Strategic Progress Report -- Part 1",
+      "url": "https://huggingface.co/papers/2410.18982",
+      "authors": [],
+      "full_author_list_url": "https://huggingface.co/papers/2410.18982",
+      "role": "article_further_reading",
+      "metadata_verified": false,
+      "notes": "Title and paper-page link retained from the article's bonus resources. An empty author array means not transcribed or verified here, not that the paper has no authors. Follow the linked paper page for author credits and its primary publication link; no full-text research verification."
+    },
+    {
+      "id": "o1-journey-2",
+      "title": "O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?",
+      "url": "https://huggingface.co/papers/2411.16489",
+      "authors": [],
+      "full_author_list_url": "https://huggingface.co/papers/2411.16489",
+      "role": "article_further_reading",
+      "metadata_verified": false,
+      "notes": "Title and paper-page link retained from the article's bonus resources. An empty author array means not transcribed or verified here, not that the paper has no authors. Follow the linked paper page for author credits and its primary publication link; no full-text research verification."
+    },
+    {
+      "id": "o1-journey-3",
+      "title": "O1 Replication Journey -- Part 3: Inference-time Scaling for Medical Reasoning",
+      "url": "https://huggingface.co/papers/2501.06458",
+      "authors": [],
+      "full_author_list_url": "https://huggingface.co/papers/2501.06458",
+      "role": "article_further_reading",
+      "metadata_verified": false,
+      "notes": "Title and paper-page link retained from the article's bonus resources. An empty author array means not transcribed or verified here, not that the paper has no authors. Follow the linked paper page for author credits and its primary publication link; no full-text research verification."
+    }
+  ]
+}

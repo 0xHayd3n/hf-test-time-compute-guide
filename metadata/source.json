@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "title": "What is test-time compute and how to scale it?",
+  "url": "https://huggingface.co/blog/Kseniase/testtimecompute",
+  "source_type": "community_blog_overview",
+  "authors": [{"name": "Alyona Vert", "url": "https://huggingface.co/alyona0l"}],
+  "editors": [{"name": "Ksenia Se", "url": "https://huggingface.co/Kseniase"}],
+  "published_date": "2025-02-06",
+  "accessed_date": "2026-10-20",
+  "version": null,
+  "version_note": "Unversioned webpage. The capture date and hash do not establish the article's original bytes or edit history.",
+  "capture": {
+    "kind": "UTF-8 HTML saved from a successful public HTTP GET",
+    "sha256": "b5ba538327c2e04757bcd7940ebfe8c1eeb210e4f30fe48ba169b2055539cb7e",
+    "hash_scope": "Local HTML capture, not a normalized article-only representation; dynamic site content can change the hash.",
+    "source_capture_redistributed": false
+  },
+  "coverage": {
+    "complete_prose_read": true,
+    "linked_sections_read": 12,
+    "reference_list_read": true,
+    "content_images_visually_reviewed": 11,
+    "image_measurement_policy": "Selected prose values only, except a labeled Virgo prose/table discrepancy. No exhaustive figure table extraction.",
+    "excluded_from_evidence": ["Site navigation", "Community comments", "Likes and recommendations"],
+    "underlying_research_full_texts_audited": false,
+    "bibliographic_metadata_checked_separately": true,
+    "research_experiments_run": false
+  },
+  "article_section_anchors": [
+    "the-core-idea-behind-openais-o1-model",
+    "what-basically-is-test-time-compute-ttc",
+    "deepseek-r1s-way-of-scaling-test-time-compute",
+    "test-time-compute-scaling-meets-multimodality",
+    "what-if-we-use-long-form-text-examples-for-training-mllms",
+    "collective-learning-with-collective-monte-carlo-tree-search",
+    "generating-images-with-cot",
+    "search-o1-enhancing-retrieval-and-agentic-capabilities",
+    "a-brief-overview-of-3-more-research",
+    "not-without-limitations",
+    "conclusion-what-does-the-future-hold-for-test-time-compute",
+    "bonus-resources-to-dive-deeper"
+  ],
+  "figure_inventory": [
+    {"index": 1, "context": "R1-Zero response length across RL training steps"},
+    {"index": 2, "context": "DeepSeek-R1 benchmark comparison"},
+    {"index": 3, "context": "Distilled model comparison with distinct pass@1 and consensus columns"},
+    {"index": 4, "context": "Virgo text-training domains by thought length"},
+    {"index": 5, "context": "Virgo model and training-data benchmark table; prose discrepancy flagged"},
+    {"index": 6, "context": "CoMCTS collective reasoning example"},
+    {"index": 7, "context": "Search efficiency and MathVista comparison"},
+    {"index": 8, "context": "PARM and PARM++ conceptual schematic"},
+    {"index": 9, "context": "Search-o1 retrieval and document-reasoning schematic"},
+    {"index": 10, "context": "Search-o1 benchmark table"},
+    {"index": 11, "context": "Aravind Srinivas post screenshot dated 2025-01-30; commentary"}
+  ],
+  "repository": {
+    "name": "hf-test-time-compute-guide",
+    "owner": "0xHayd3n",
+    "url": "https://github.com/0xHayd3n/hf-test-time-compute-guide",
+    "maintainer_role": "Independent companion with AI assistance",
+    "structure_reference_requested": "https://github.com/0xHayd3n/harness2-guide",
+    "structure_reference_status": "HTTP 404 on 2026-10-20",
+    "available_structure_reference": "https://github.com/0xHayd3n/harness-learning-guide",
+    "duplicate_check": "Authenticated account repository listing inspected before creation; no matching guide identified."
+  },
+  "rights": {
+    "companion_license": "CC-BY-4.0",
+    "source_article_license_determined": false,
+    "third_party_rights_granted": false,
+    "source_html_or_pdf_in_repository": false,
+    "third_party_figures_in_repository": false
+  }
+}

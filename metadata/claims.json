@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "scope": "Selected article prose claims plus explicitly labeled guide cautions. Not independently reproduced results. Null means not established within this extraction scope.",
+  "claims": [
+    {
+      "id": "r1-zero-aime",
+      "kind": "article_report",
+      "source_ids": ["article", "deepseek-r1"],
+      "article_anchor": "deepseek-r1s-way-of-scaling-test-time-compute",
+      "summary": "Article reports R1-Zero AIME improvement and a distinct majority-voting score.",
+      "measurements": [
+        {"label": "starting accuracy", "value": 15.6, "unit": "percent_accuracy"},
+        {"label": "RL-trained accuracy", "value": 71.0, "unit": "percent_accuracy"},
+        {"label": "majority voting accuracy", "value": 86.7, "unit": "percent_accuracy"}
+      ],
+      "benchmark": "AIME, year unspecified in article prose for this claim",
+      "sample_count": null,
+      "compute_budget": null,
+      "caveat": "Training-stage improvement and multi-answer aggregation are distinct. Do not treat all three as matched-budget inference configurations."
+    },
+    {
+      "id": "r1-distillation-data",
+      "kind": "article_report",
+      "source_ids": ["article", "deepseek-r1"],
+      "article_anchor": "deepseek-r1s-way-of-scaling-test-time-compute",
+      "summary": "Article describes fine-tuning smaller models on teacher-generated material.",
+      "measurements": [{"label": "training examples", "value": 800000, "unit": "examples"}],
+      "caveat": "Training-data size does not establish an inference budget or a universal advantage over direct RL."
+    },
+    {
+      "id": "virgo-training-data",
+      "kind": "article_report",
+      "source_ids": ["article", "virgo"],
+      "article_anchor": "what-if-we-use-long-form-text-examples-for-training-mllms",
+      "summary": "Article highlights training on long-form text reasoning examples.",
+      "measurements": [{"label": "text training examples", "value": 5000, "unit": "examples"}],
+      "caveat": "This is training data, not a visual test-set count or inference resource allowance."
+    },
+    {
+      "id": "virgo-benchmark-scores",
+      "kind": "article_report",
+      "source_ids": ["article", "virgo"],
+      "article_anchor": "what-if-we-use-long-form-text-examples-for-training-mllms",
+      "summary": "The article prose gives two Virgo benchmark scores.",
+      "measurements": [
+        {"label": "MathVision prose score", "value": 38.4, "unit": "percent_accuracy"},
+        {"label": "OlympiadBench prose score", "value": 29.3, "unit": "percent_accuracy"}
+      ],
+      "exact_model_variant_in_prose": null,
+      "caveat": "The fifth embedded image's text-trained Virgo-72B row shows different values. See virgo-prose-image-discrepancy; no silent reconciliation."
+    },
+    {
+      "id": "virgo-prose-image-discrepancy",
+      "kind": "guide_observation",
+      "source_ids": ["article", "virgo"],
+      "article_anchor": "what-if-we-use-long-form-text-examples-for-training-mllms",
+      "summary": "Guide observation: prose values differ from the displayed text-trained Virgo-72B table row.",
+      "measurements": [
+        {"label": "MathVision in content image 5, Virgo-72B text-trained row", "value": 38.8, "unit": "table_score"},
+        {"label": "OlympiadBench in content image 5, Virgo-72B text-trained row", "value": 29.9, "unit": "table_score"}
+      ],
+      "figure_index": 5,
+      "figure_url": "https://cdn-uploads.huggingface.co/production/uploads/64838b28c235ef76b63e4999/KUUD-2c9OFzismWH0ae4S.png",
+      "resolution": null,
+      "caveat": "Narrow visual observation, not independent verification or correction of research. Exact paper-version/configuration alignment is not established."
+    },
+    {
+      "id": "virgo-hard-subset",
+      "kind": "article_report",
+      "source_ids": ["article", "virgo"],
+      "article_anchor": "what-if-we-use-long-form-text-examples-for-training-mllms",
+      "summary": "Article compares Virgo and QVQ on hard questions.",
+      "measurements": [
+        {"label": "Virgo on hard questions", "value": 54.7, "unit": "percent_accuracy"},
+        {"label": "QVQ on hard questions", "value": 48.6, "unit": "percent_accuracy"}
+      ],
+      "exact_subset_protocol": null,
+      "caveat": "Do not generalize this harder-subset comparison to all questions or all model configurations."
+    },
+    {
+      "id": "mulberry-data",
+      "kind": "article_report",
+      "source_ids": ["article", "mulberry"],
+      "article_anchor": "collective-learning-with-collective-monte-carlo-tree-search",
+      "summary": "Article describes the Mulberry-260K dataset.",
+      "measurements": [{"label": "multimodal questions", "value": 260000, "unit": "questions"}],
+      "caveat": "Question count is not a count of independent human annotations, model calls, or search expansions."
+    },
+    {
+      "id": "mulberry-improvements",
+      "kind": "article_report",
+      "source_ids": ["article", "mulberry"],
+      "article_anchor": "collective-learning-with-collective-monte-carlo-tree-search",
+      "summary": "Article reports several improvements without fully defining their units and aggregation.",
+      "measurements": [
+        {"label": "Mulberry-7B over Qwen2-VL-7B", "value": 4.2, "unit": "percent_improvement_as_reported"},
+        {"label": "Mulberry-11B over LLaMA-3.2-11B-Vision-Instruct", "value": 7.5, "unit": "percent_improvement_as_reported"},
+        {"label": "MathVista improvement", "value": 5.7, "unit": "percent_improvement_as_reported"},
+        {"label": "MMMU improvement", "value": 3.0, "unit": "percent_improvement_as_reported"}
+      ],
+      "absolute_or_relative": null,
+      "complete_aggregation_protocol": null,
+      "caveat": "Retain as article prose reports. Do not infer percentage points, exact benchmark aggregation, or complete per-number model contexts."
+    },
+    {
+      "id": "parm-improvements",
+      "kind": "article_report",
+      "source_ids": ["article", "parm"],
+      "article_anchor": "generating-images-with-cot",
+      "summary": "Article reports verification/refinement improvements for PARM and PARM++.",
+      "measurements": [
+        {"label": "PARM over ORM/PRM as described", "value": 6, "unit": "percent_improvement_as_reported"},
+        {"label": "PARM++ maximum improvement", "value": 24, "unit": "percent_improvement_as_reported"},
+        {"label": "PARM++ over Stable Diffusion 3", "value": 15, "unit": "percent_improvement_as_reported"}
+      ],
+      "metric": null,
+      "absolute_or_relative": null,
+      "caveat": "The 24 figure is explicitly an up-to report. Metrics, denominators, and full protocols remain unspecified in this prose extraction; no universal ranking follows."
+    },
+    {
+      "id": "s1-training-data",
+      "kind": "article_report",
+      "source_ids": ["article", "s1"],
+      "article_anchor": "a-brief-overview-of-3-more-research",
+      "summary": "Article describes the s1K training dataset.",
+      "measurements": [{"label": "training examples", "value": 1000, "unit": "examples"}],
+      "caveat": "Dataset size does not specify budget-forcing performance or inference cost."
+    },
+    {
+      "id": "search-o1-workflow",
+      "kind": "article_report",
+      "source_ids": ["article", "search-o1"],
+      "article_anchor": "search-o1-enhancing-retrieval-and-agentic-capabilities",
+      "summary": "Article describes search, document reasoning, continuation, and batching.",
+      "measurements": [],
+      "caveat": "No figure-only result table was transcribed. Batching should not be assumed to reduce total arithmetic work; the article's relevant-and-redundant wording is flagged as ambiguous."
+    },
+    {
+      "id": "training-inference-boundary",
+      "kind": "guide_interpretation",
+      "source_ids": ["article"],
+      "article_anchor": "deepseek-r1s-way-of-scaling-test-time-compute",
+      "summary": "Guide distinguishes training updates from request-time computation and tree-value backup from parameter gradients.",
+      "measurements": [],
+      "caveat": "An explanatory framework, not a new experimental finding or a recovered closed-model implementation."
+    },
+    {
+      "id": "article-limitations",
+      "kind": "article_report",
+      "source_ids": ["article", "underthinking"],
+      "article_anchor": "not-without-limitations",
+      "summary": "Article identifies allocation, latency, underthinking, behavioral variability, and cost risks.",
+      "measurements": [],
+      "caveat": "The overview is not a causal measurement of every proposed risk."
+    },
+    {
+      "id": "test-time-training-outlook",
+      "kind": "article_speculation",
+      "source_ids": ["article"],
+      "article_anchor": "conclusion-what-does-the-future-hold-for-test-time-compute",
+      "summary": "Conclusion proposes test-time training as a possible further direction.",
+      "measurements": [],
+      "caveat": "Forward-looking commentary. Weight adaptation is distinct from allocating more fixed-weight inference work."
+    }
+  ]
+}

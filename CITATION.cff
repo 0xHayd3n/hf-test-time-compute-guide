@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Cite the original overview for its claims, and the primary research for individual results. This repository is an independent reading companion."
+title: "Test-Time Compute: An Independent Reading Guide"
+type: software
+authors:
+  - name: "0xHayd3n"
+repository-code: "https://github.com/0xHayd3n/hf-test-time-compute-guide"
+url: "https://github.com/0xHayd3n/hf-test-time-compute-guide"
+date-released: 2026-10-20
+license: CC-BY-4.0
+preferred-citation:
+  type: blog
+  title: "What is test-time compute and how to scale it?"
+  authors:
+    - family-names: "Vert"
+      given-names: "Alyona"
+  editors:
+    - family-names: "Se"
+      given-names: "Ksenia"
+  date-published: 2025-02-06
+  url: "https://huggingface.co/blog/Kseniase/testtimecompute"
+  collection-title: "Hugging Face Community Articles"

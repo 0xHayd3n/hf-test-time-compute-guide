@@ -1,0 +1,19 @@
+# Test-Time Compute Reading Guide
+
+Independent companion to Alyona Vert's 2025-02-06 Hugging Face Community Article, edited by Ksenia Se. Historical overview; no experiments reproduced.
+
+Read first: AGENTS.md
+Overview: README.md
+Source identity and coverage: metadata/source.json
+Compute and terminology: docs/01-compute-and-reasoning.md
+Training versus inference: docs/02-training-and-inference.md
+Method comparison: docs/03-methods-across-modalities.md
+Evidence and cautions: docs/04-evidence-and-caveats.md
+Complete source section map: docs/05-source-map.md
+Exercises and prospective evaluation: docs/06-exercises-and-evaluation.md
+Typed claims: metadata/claims.json
+Bibliography: metadata/references.json and references/README.md
+Credit and licensing: ATTRIBUTION.md
+Verification scope: VERIFICATION.md
+
+Ground claims in article sections. Distinguish article report, guide interpretation, and primary-paper metadata. Preserve unknown benchmark protocols and ambiguous percentages. More tokens, weight updates, search-tree backup, latency, and compute are different concepts. No current-leaderboard or mental-state claims.
