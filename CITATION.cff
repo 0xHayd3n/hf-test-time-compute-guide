@@ -6,7 +6,7 @@ authors:
   - name: "0xHayd3n"
 repository-code: "https://github.com/0xHayd3n/hf-test-time-compute-guide"
 url: "https://github.com/0xHayd3n/hf-test-time-compute-guide"
-date-released: 2026-10-20
+date-released: "2026-10-20"
 license: CC-BY-4.0
 preferred-citation:
   type: blog
@@ -17,6 +17,6 @@ preferred-citation:
   editors:
     - family-names: "Se"
       given-names: "Ksenia"
-  date-published: 2025-02-06
+  date-published: "2025-02-06"
   url: "https://huggingface.co/blog/Kseniase/testtimecompute"
   collection-title: "Hugging Face Community Articles"
